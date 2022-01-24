@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Hello, world!</title>
+</head>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+      <h1>Sorting Visualizer</h1>
+  </header>
+  
+  <nav id="nav-container">
+    <div class="btn">
+      <button class="btn-item" id="generate">Generate array</button>
+      <select class="btn-item" id="sorting-algorithms">
+        <option value="algorithms">Algorithms</option>
+        <option value="insertion" id="insertion">Insertion Sort</option>
+        <option value="bubble" id="bubble">Bubble Sort</option>
+        <option value="selection" id="selection">Selection Sort</option>
+        <option value="quick" id="quick">Quick Sort</option>
+        <option value="merge" id="merge">Merge Sort</option>
+      </select>
+      <button class="btn-item" id="sort">Sort</button>
+    </div>
+    <div class="range">
+      <div class="range-item">
+        <label for="arr-size">Array size:</label>
+        <input id="arr-size" type="range" min="20" max="100" step="1" value=60>
+      </div>
+      <div class="range-item">
+        <label for="speed">Speed:</label>
+        <input id="speed" type="range" min="1" max="4"  value="2">  
+      </div>
+    </div>
+  </nav>
+
+  <div class="bars-container">
+
+  </div>
+  
+  
+
+   <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="./scripts/app.js"></script>
+   <script src="./scripts/insertion sort.js"></script>
+   <script src="./scripts/selection sort.js"></script>
+   <script src="./scripts/bubble sort.js"></script>
+   <script src="./scripts/quick sort.js"></script>
+   <script src="./scripts/merge sort.js"></script>
+   
+</body>
+</html>

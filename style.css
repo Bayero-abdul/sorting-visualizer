@@ -1,0 +1,56 @@
+:root{
+  --default: rgb(140, 160, 160);
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  background-color: rgb(140, 160, 160);
+  height: 60px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#nav-container{
+  background-color:  rgb(169, 169, 169);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.range{
+  display: flex;
+  justify-content: space-between;
+}
+
+.range-item{
+  margin: 10px;
+}
+
+.btn-item{
+  margin: 10px 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.bars-container{
+  margin: auto;
+  margin-top: 10px;
+  width: 80%;
+  height: 420px;
+  border: 2px solid lightslategrey;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.bar{
+  margin: 0 1px;
+  background-color: rgb(140, 160, 160);
+}
