@@ -6,12 +6,10 @@ var speedValue = speed.value;
 var arrSize = arr_size.value;
 var milliseconds = 10000/Math.pow(10, speedValue);
 
-
 document.querySelector("#generate").addEventListener("click", newArray);
 arr_size.addEventListener("input", createBars);
 speed.addEventListener("input", changeSpeed);
 document.querySelector("#sort").addEventListener("click", sort);
-
 
 function createBars(){
   arrSize = arr_size.value;
