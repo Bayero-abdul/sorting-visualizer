@@ -1,4 +1,5 @@
 newArray();
+
 var arr_size = document.querySelector("#arr-size");
 var speed = document.querySelector("#speed");
 var speedValue = speed.value;
