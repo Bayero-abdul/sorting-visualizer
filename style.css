@@ -10,6 +10,7 @@ header{
   height: 60px;
   margin-bottom: 10px;
   width: 100%;
+  font-family: 'Arimo', sans-serif;
 }
 
 #nav-container{
@@ -18,12 +19,14 @@ header{
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .range{
